@@ -43,6 +43,3 @@ const repetirTexto = (text, repeticiones) => {
     return error
   }
 }
-  
-let Cadena = [contarCaracteres(miTexto), recortarTexto(miTexto,10), separarTexto(miTexto, "o"), repetirTexto(miTexto, 3)]
-console.table(Cadena)
